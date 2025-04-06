@@ -1,0 +1,68 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#1a1a2e, #16213e);
+    color: #e0e0e0;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background: #0f3460;
+    border-bottom: 2px solid #e94560;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #e94560;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #eeeeee;
+    margin-top: 0.5rem;
+}
+
+.portrait {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.portrait img {
+    max-width: 250px;
+    border: 3px solid #e94560;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #e94560;
+}
+
+section {
+    padding: 2rem 10%;
+}
+
+.description, .abilities {
+    background: rgba(255, 255, 255, 0.05);
+    border-left: 4px solid #e94560;
+    margin: 2rem 0;
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+h2 {
+    color: #f0a500;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #0f3460;
+    color: #888;
+    border-top: 1px solid #444;
+}
